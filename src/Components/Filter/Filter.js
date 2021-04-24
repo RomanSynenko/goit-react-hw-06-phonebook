@@ -1,9 +1,10 @@
-import s from './Filter.module.scss';
-import PropTypes from 'prop-types';
 import { connect } from 'react-redux';
 import action from '../../redux/action';
+import PropTypes from 'prop-types';
+
+import s from './Filter.module.scss';
+
 const Filter = ({ filter, onChange }) => {
-    console.log(onChange)
     return (
         <div className={s.search_block}>
             <h2 className={s.title}>Contacts list</h2>
